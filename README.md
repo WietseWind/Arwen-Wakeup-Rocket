@@ -8,5 +8,3 @@ APIKEY=someapikey
 # Every minute (eg cronjob)
 node rocket.mjs
 ```
-# Arwen-Wakeup-Rocket
-# Arwen-Wakeup-Rocket
