@@ -11,7 +11,11 @@ let v = Math.round(h * 100 + (m / 60 * 100))
 let p = 0
 
 if (v < 800) {
-  p = v / 720 * 100
+  p = v / 720 * 1.1 * 100
+}
+
+if (h > 6 && h < 8) {
+  p = 100 
 }
 
 let brightness = Number(process.env.BRIGHTNESS || 10)
