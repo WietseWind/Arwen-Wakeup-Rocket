@@ -78,7 +78,7 @@ const render = async res => {
       </g>
 
       <text filter="url(x#crispify)" text-anchor="middle" x="16" y="63" fill="white" style="font-family: Arial; font-weight: 800; font-size: 12px">
-        ${h}:${String(m).length < 2 ? '0' : ''}${m}
+        ${h > 12 ? h - 12 : h}:${String(m).length < 2 ? '0' : ''}${m}
         <!-- ${p} -->
       </text>
     </svg>
